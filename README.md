@@ -22,7 +22,7 @@ The underlying biometric engine was rigorously tested during the research phase 
 - Precision	93.82%
 - Accuracy	89.00%
 - Recall	83.50%
-- 
+
 Note: The model file included in this demo is trained on a reduced sample set for demonstration purposes only.
 
 🛠️ ***Tech Stack***
@@ -34,7 +34,9 @@ Note: The model file included in this demo is trained on a reduced sample set fo
 ⚙️ ***Installation & Setup***
 
 Clone the repository:
-```git clone https://github.com/Siyamthanda-code/FIST.gitcd FIST```
+```
+git clone https://github.com/Siyamthanda-code/FIST.gitcd FIST
+```
 Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -89,3 +91,4 @@ git commit -m "Add project README"
 ```
 git push
 ```
+

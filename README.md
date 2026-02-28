@@ -1,6 +1,7 @@
 ### FIST - Fingerprint Identification Student Terminal
 ##### University of Zululand | Capstone Project | June 2024 – November 2024
 
+![portal Screenshot](./assets/verify.png)
 
 📝 ***Project Disclaimer***
 
@@ -92,6 +93,7 @@ git commit -m "Add project README"
 ```
 git push
 ```
+
 
 
 

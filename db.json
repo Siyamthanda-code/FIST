@@ -1,0 +1,22 @@
+{
+    "system_status": "Closed",
+    "students": [],
+    "staff": [
+        {
+            "id": "ADMINOO1",
+            "name": "System Admin",
+            "email": "admin01@unizulu.ac.za",
+            "year_employed": "2018"
+        }
+    ],
+    "attendance_logs": [
+        {
+            "student_id": "219004444",
+            "time": "21:51:58",
+            "date": "2026-02-28",
+            "venue": "D3/4",
+            "reason": "Study"
+        }
+    ],
+    "security_logs": []
+}

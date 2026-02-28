@@ -73,8 +73,8 @@ FIST-Terminal/
 ```
 🔐 ***Default Access***
 
-![portal Screenshot](./assets/secpo.PNG)
 The prototype includes a default Security Admin for testing:
+![portal Screenshot](./assets/secpo.png)
 ```text
 Staff ID: SEC001
 ```
@@ -92,6 +92,7 @@ git commit -m "Add project README"
 ```
 git push
 ```
+
 
 
 

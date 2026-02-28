@@ -20,7 +20,7 @@ The main project was developed and validated with a large dataset during the res
 
 The underlying biometric engine was rigorously tested during the research phase with a substantial dataset, achieving the following performance metrics:
 
-![portal Screenshot](./assets/Capture.PNG)
+![portal Screenshot](./assets/Capture2.PNG)
 - Precision	93.82%
 - Accuracy	89.00%
 - Recall	83.50%
@@ -94,6 +94,7 @@ git commit -m "Add project README"
 ```
 git push
 ```
+
 
 
 

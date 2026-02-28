@@ -72,7 +72,8 @@ FIST-Terminal/
 └── docs/                 # SRS and SDD Documentation
 ```
 🔐 ***Default Access***
-![portal Screenshot](secpo.PNG)
+
+![portal Screenshot](/assets/secpo.PNG)
 The prototype includes a default Security Admin for testing:
 ```text
 Staff ID: SEC001
@@ -91,5 +92,6 @@ git commit -m "Add project README"
 ```
 git push
 ```
+
 
 

@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime
+import pytz
 
 DB_FILE = 'db.json'
 
@@ -63,9 +64,16 @@ def add_user(role, data):
     save_data(db)
     return True, "User added successfully."
 
+# Define SA timezone
+SA_TIMEZONE = pytz.timezone('Africa/Johannesburg')
+
 # --- Logging Functions ---
 def log_attendance(student_id, venue, reason):
     db = load_data()
+
+     # Get current time in SA timezone first
+    now = datetime.now(SA_TIMEZONE)
+    
     entry = {
         "student_id": student_id,
         "time": datetime.now().strftime("%H:%M:%S"),
@@ -78,6 +86,10 @@ def log_attendance(student_id, venue, reason):
 
 def log_security_login(staff_id):
     db = load_data()
+
+    # Get current time in SA timezone
+    now = datetime.now(SA_TIMEZONE)
+    
     entry = {
         "staff_id": staff_id,
         "login_time": datetime.now().strftime("%H:%M:%S"),
@@ -91,6 +103,9 @@ def log_security_shift(staff_id, venue):
     staff_info = next((s for s in db['staff'] if s['id'] == staff_id), None)
     if not staff_info:
         return False, "Staff ID not found in database."
+
+    # Get current time in SA timezone
+    now = datetime.now(SA_TIMEZONE)
     
     entry = {
         "staff_id": staff_id,

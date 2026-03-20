@@ -1,4 +1,7 @@
 ### FIST - Fingerprint Identification Student Terminal
+![FIST Logo](https://img.shields.io/badge/FIST-Fingerprint%20Identification%20Student20%Terminal-blue?style=for-the-badge&logo=heart&logoColor=red)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 ##### University of Zululand | Capstone Project | June 2024 – November 2024
 
 ![portal Screenshot](./assets/verify.png)

@@ -76,8 +76,8 @@ def log_attendance(student_id, venue, reason):
     
     entry = {
         "student_id": student_id,
-        "time": now().strftime("%H:%M:%S"),
-        "date": now().strftime("%Y-%m-%d"),
+        "time": now.strftime("%H:%M:%S"),
+        "date": now.strftime("%Y-%m-%d"),
         "venue": venue,
         "reason": reason
     }
@@ -92,8 +92,8 @@ def log_security_login(staff_id):
     
     entry = {
         "staff_id": staff_id,
-        "login_time": now().strftime("%H:%M:%S"),
-        "date": now().strftime("%Y-%m-%d")
+        "login_time": now.strftime("%H:%M:%S"),
+        "date": now.strftime("%Y-%m-%d")
     }
     db['security_logs'].append(entry)
     save_data(db)
@@ -111,8 +111,8 @@ def log_security_shift(staff_id, venue):
         "staff_id": staff_id,
         "staff_name": staff_info['name'],
         "venue": venue,
-        "time": now().strftime("%H:%M:%S"),
-        "date": now().strftime("%Y-%m-%d"),
+        "time": now.strftime("%H:%M:%S"),
+        "date": now.strftime("%Y-%m-%d"),
         "action": "Shift Start"
     }
     db['security_logs'].append(entry)

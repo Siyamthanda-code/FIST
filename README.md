@@ -1,5 +1,4 @@
 ### FIST - Fingerprint Identification Student Terminal
-![FIST Logo](https://img.shields.io/badge/FIST-Fingerprint%20Identification%20Student20%Terminal-purple?style=for-the-badge&logo=heart&logoColor=red)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 ##### University of Zululand | Capstone Project | June 2024 – November 2024
@@ -29,6 +28,7 @@ The underlying biometric engine was rigorously tested during the research phase 
 - Recall	83.50%
 
 Note: The model file included in this demo is trained on a reduced sample set for demonstration purposes only.
+
 Visit the live site: [FIST: Fingerprint Identification Student Portal](https://fist-ux.streamlit.app/)
 
 🛠️ ***Tech Stack***

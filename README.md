@@ -40,8 +40,11 @@ Visit the live site: [FIST: Fingerprint Identification Student Portal](https://f
 ⚙️ ***Installation & Setup***
 
 Clone the repository:
+```bash
+git clone https://github.com/Siyamthanda-code/FIST.git
 ```
-git clone https://github.com/Siyamthanda-code/FIST.gitcd FIST
+```bash
+cd FIST
 ```
 Install dependencies:
 ```bash
